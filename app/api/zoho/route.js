@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { refreshZohoAccessToken } from '../../../utils/zohoAuth';
-import { getZohoCreatorRecords } from '../../../utils/zohoAuth';
+import { refreshZohoAccessToken } from '../../utils/zohoAuth';
+import { getZohoCreatorRecords } from '../../utils/zohoAuth';
 
 export async function GET() {
   try {
